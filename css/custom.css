@@ -1,0 +1,529 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+.hide {
+    display: none !important;
+}
+
+p {
+    font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+}
+
+.btn,
+.btn:focus {
+    background-color: #f1e3c4;
+    color: #262626;
+    border-color: #f1e3c4;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #3b2314;
+    border-color: #3b2314;
+    color: #fff;
+}
+
+a.toggle-item:hover,
+a.toggle-item:focus,
+a.toggle-item:active {
+    color: #fff !important;
+}
+
+/*.container-fullscreen h6, .container-fullscreen h2, .container-fullscreen .lead{
+	color: #fff;
+}*/
+
+#topbar li a {
+    /*color: #fff;*/
+}
+
+.header-transparent #mainMenu nav li a {
+    /*color: #fff;*/
+}
+
+.slide-captions {
+    text-align: right;
+}
+
+.slide-captions .lead {
+    font-size: 1.4rem;
+}
+
+#topbar .social-icons li a {
+    width: initial;
+}
+
+h3 small {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.brief {
+    margin: 0 !important;
+    padding: 0;
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    height: 330px;
+}
+
+.brief li {
+    list-style: none;
+    font-size: 13px;
+}
+
+#rooms .container .row {
+    margin-bottom: ;
+}
+
+#rooms .container .col-md-6 {
+    background-color: #fff;
+    min-height: 351px;
+}
+
+.room-summary {
+    padding: 2rem;
+}
+
+.room-summary p {
+    font-size: : 0.7rem !important;
+    line-height: 20px !important;
+}
+
+.for-mother .col-md-4 {
+    /*border-bottom: 1px solid #eaeaea;*/
+    padding: 0 4rem;
+    min-height: 470px;
+}
+
+.for-mother .col-md-4 img {
+    border-radius: 50%;
+    /*margin-bottom: 1rem;*/
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.for-mother .col-md-4 h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #856a5d;
+}
+
+.for-mother .col-md-4 p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.guide .info {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.guide .info li {
+    list-style: none;
+}
+
+.guide-info h3 {
+    font-size: 3rem;
+}
+
+.cost h3 {
+    font-size: 3rem;
+}
+
+.cost .tabs h3 small {
+    margin-bottom: 0.7rem;
+}
+
+.pricing-table .plan .plan-header .plan-price {
+    font-size: 3rem;
+    padding: 6px 0;
+}
+
+.pricing-table .plan .plan-header .plan-price .early {
+    color: orange;
+    font-size: 3rem;
+}
+
+.pricing-table .plan .plan-header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pricing-table .plan .plan-header h5 {
+    margin-top: 2rem;
+}
+
+body.device-lg .pricing-table .col-md-2,
+body.device-md .pricing-table .col-md-2 {
+    padding: 10px;
+}
+
+.pricing-table .plan-list ul {
+    padding: 0 10px;
+}
+
+.pricing-table .plan-list ul li {
+    border-bottom: 0;
+}
+
+.pricing-table .plan-list .btn {
+    margin-top: 1rem;
+}
+
+#mainMenu nav > ul > li.hover-active > a,
+#mainMenu nav > ul > li.hover-active > span,
+#mainMenu nav > ul > li.current > a,
+#mainMenu nav > ul > li.current > span,
+#mainMenu nav > ul > li:hover > a,
+#mainMenu nav > ul > li:hover > span,
+#mainMenu nav > ul > li:focus > a,
+#mainMenu nav > ul > li:focus > span {
+    color: #f1e3c4;
+}
+
+.loader .loader-inner div {
+    background-color: #f1e3c4;
+}
+
+.room-slide img {
+    max-width: 100%;
+}
+
+.room-img {
+    padding: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #3b2314;
+}
+
+.room-summary .option {
+    margin-bottom: 2rem;
+}
+
+.room-summary .option span {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.room-summary .option .tit {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.heading span.hr {
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    background-color: #fae3c4;
+}
+
+.laspa h2 small {
+    display: block;
+}
+
+.for-mother img {
+    max-width: 100%;
+}
+
+.simple .tabs-navigation li.active a,
+.simple .tabs-navigation li.active a:focus,
+.simple .tabs-navigation li a:hover {
+    color: #3b2314;
+    border-color: #3b2314;
+}
+
+#header-wrap .toggle-item {
+    position: absolute;
+    right: -120px;
+    top: 20px;
+}
+
+.partner .carousel img {
+    padding: 2.4rem;
+}
+
+address {
+    margin-bottom: 0;
+    color: #999;
+}
+
+.footer-content {
+    padding: 20px 0 30px 0;
+}
+
+.footer-content span {
+    color: #494949 !important;
+}
+
+.side-panel-wrap .form-group {
+    margin-bottom: 0;
+}
+
+.side-panel-wrap .form-group input {
+    /*width: 100%;*/
+}
+
+.side-panel-wrap .form-group label {
+    text-align: left;
+}
+
+.side-panel-wrap .form-group .private-agree-label {
+    display: inline-block;
+}
+
+.side-panel-wrap .form-group #private-agree {
+    vertical-align: middle;
+    margin-top: 0;
+}
+
+.side-panel-wrap .form-group textarea {
+    min-height: 120px;
+}
+
+#side-panel .side-panel-wrap .logo {
+    margin-bottom: 0;
+}
+
+.go-private-agree {
+    font-size: 0.9rem;
+    color: #3b2314;
+    text-decoration: underline;
+}
+
+.go-request {
+    margin-top: 2rem;
+}
+
+.inspiro-slider .slide-captions > p {
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+
+.owl-carousel.arrows-creative .owl-nav [class*="owl-"]:hover {
+    background-color: #fae3c4;
+}
+
+.main-slide .swiper-slide {
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.main-slide .swiper-slide {
+    position: relative;
+}
+
+.main-slide .swiper-slide .container {
+    position: relative;
+    top: 50%;
+    margin-top: -90px;
+}
+
+.main-slide .swiper-slide .container .slide-captions h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main-slide .swiper-slide.slide1 {
+    background-image: url("../images/lobby-ss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-slide.slide2 {
+    background-image: url("../images/lobby-ss2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-slide.slide3 {
+    background-image: url("../images/lobby-ss3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-slide.slide4 {
+    background-image: url("../images/lobby-ss4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-slide.slide5 {
+    background-image: url("../images/lobby-ss5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-slide.slide6 {
+    background-image: url("../images/lobby-ss6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-slide .swiper-pagination-bullet-active {
+    background-color: #fae3c4;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    font-size: 3rem;
+    background: none;
+    font-weight: 100;
+}
+
+.swiper-button-next {
+    right: 30px !important;
+}
+
+.list-icon-colored > li:before,
+.list-icon-colored > li > i {
+    color: #fae3c4 !important;
+}
+
+.facility-title {
+    background: url("../images/rooms-header.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.feature-title {
+    background: url("../images/feature-header.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.service-title {
+    background: url("../images/service-header.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.guide-title {
+    background: url("../images/guide-header.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.price-title {
+    background: url("../images/price-header.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.welcome {
+    margin-left: 0;
+    margin-right: 0;
+    background: url("../images/lobby-ss2.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome h3,
+.welcome small {
+    color: #fff;
+}
+
+.welcome p {
+    color: #fff;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    text-align: center;
+}
+
+.price__won {
+    font-size: 1.2rem;
+}
+
+.week2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.point {
+    /*color: turquoise;*/
+    color: #fae3c4;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.table > tbody > tr > th {
+    font-size: 1.3rem;
+}
+
+.table-responsive {
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.table-responsive h4 i {
+    margin-right: 0.8rem;
+}
+
+.text-extra-large,
+.text-extra-large span {
+    font-size: 45px !important;
+    color: #f1e3c4;
+}
+
+/*프라이빗 클래스 신청팝업*/
+.go-class img {
+    width: 100%;
+}
+
+.mfp-close {
+    font-size: 46px;
+}
+
+
+/*트리니티 특징*/
+.icon-box p {
+    height: 140px;
+}
+
+
+/*media query*/
+/*
+@media only screen and (max-width: 415px){
+	.main-slide .swiper-slide .container {
+		margin-left: -620px;
+	}
+
+}
+@media only screen and (max-width: 376px){
+	.main-slide .swiper-slide .container {
+		margin-left: -478px;
+	}
+
+}
+@media only screen and (max-width: 322px){
+	.main-slide .swiper-slide .container {
+		margin-left: -562px;
+	}
+
+}
+*/

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="트리니티 산후조리원 삼성점" />
+    <meta name="description" content="산후전문가와 의료진이 함께 산모와 아기의 회복과 건강에 최적화된 시설과 모유수유에 맞는 개인맞춤형 1:1 트리니티 케어 프로그램으로 산후조리 문화를 선도 합니다.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="트리니티 산후조리원 삼성점" />
+    <meta property="og:image" content="http://trinitycare.co.kr/images/logo.png" />
+    <meta property="og:url" content="http://trinitycare.co.kr/" />
+    <meta property="og:description" content="산후전문가와 의료진이 함께 산모와 아기의 회복과 건강에 최적화된 시설과 모유수유에 맞는 개인맞춤형 1:1 트리니티 케어 프로그램으로 산후조리 문화를 선도 합니다." />
+    <!-- Document title -->
+    <title>서비스 - 트리니티 산후조리원 삼성점</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet"> 
+    <link href="css/custom.css" rel="stylesheet"> 
+    
+    	<!-- Template color -->
+	<link href="css/color-variations/green.css" rel="stylesheet" type="text/css" media="screen">
+    </head>
+
+<body class="side-panel side-panel-push">
+ <!-- Side Panel -->
+    <div id="side-panel" class="text-center">
+        <div id="close-panel">
+            <i class="fa fa-close"></i>
+        </div>
+            <div class="side-panel-wrap">
+                <div class="logo">
+                    <a href="#!"><img src="images/logo.png"></a>
+                </div>
+                <form action="http://api.trinitycare.co.kr/api/restpc" method="post">
+                    <div class="col-md-12 form-group">
+                        <label>이름</label>
+                        <input type="text" placeholder="이름" class="form-control input-lg CC_AUTHOR" name="CC_AUTHOR">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label>핸드폰번호</label>
+                        <input type="text" placeholder="예) 010-1234-5678" class="form-control input-lg CC_MB_TELNUM" name="CC_MB_TELNUM">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label>출산예정일</label>
+                        <input type="date" placeholder="출산예정일" class="form-control input-lg CC_PN_DATE" name="CC_PN_DATE">
+                    </div>
+                    <div class="col-md-12 form-group text-left">
+                        <label>상담내용</label>
+                        <textarea id="" class="form-control input-lg" name="CC_CONTENT"></textarea>
+                        <input type="checkbox" id="private-agree" name="CC_PRIVATE_INFO_AGREE" class="CC_PRIVATE_INFO_AGREE">
+                        <label for="private-agree" class="private-agree-label">개인정보취급방침동의</label>
+                        <a href="privateAgree.html" target="_blank" class="go-private-agree">약관보기</a>
+                    </div>
+                    <button class="btn go-request" type="submit" onclick="gtag('event','click',{'event_category': 'consult'})">상담신청</button>
+                </form>
+            </div>
+    </div>
+
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="header-transparent">
+            <div id="header-wrap">
+                <div class="container">
+                    <a id="side-panel-trigger" href="#!" data-target="body" data-class="side-panel-active" class="btn btn-modal btn-shadow btn-light-hover toggle-item hide">상담신청</a>
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="index.html" class="logo" data-dark-logo="images/logo-dark.png">
+                            <img src="images/logo.png" alt="Polo Logo">
+                        </a>
+                    </div>
+                    <!--End: Logo-->
+
+                    <!--Header Extras-->
+                    <div class="header-extras hide">
+                        <ul>
+                            <li>
+                                <!--top search-->
+                                <a id="top-search-trigger" href="#!" class="toggle-item">
+                                    <i class="fa fa-search"></i>
+                                    <i class="fa fa-close"></i>
+                                </a>
+                                <!--end: top search-->
+                            </li>
+                            <li class="hidden-xs">
+                                <!--shopping cart-->
+                                <div id="shopping-cart">
+                                    <a href="shop-cart.html">
+                                        <span class="shopping-cart-items">8</span>
+
+                                        <i class="fa fa-shopping-cart"></i></a>
+                                </div>
+                                <!--end: shopping cart-->
+                            </li>
+                            <li>
+                                <div class="topbar-dropdown">
+                                    <a class="title"><i class="fa fa-globe"></i></a>
+                                    <div class="dropdown-list">
+                                        <a class="list-entry" href="#!">French</a>
+                                        <a class="list-entry" href="#!">Spanish</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end: Header Extras-->
+
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <button class="lines-button x"> <span class="lines"></span> </button>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+
+                    <!--Navigation-->
+                    <div id="mainMenu" class="light">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li> 
+                                        <a href="index.html">Main</a>
+                                    </li>
+                                    <li> 
+                                        <a href="facility.html">Facility</a>
+                                    </li>
+                                    <li> 
+                                        <a href="feature.html">la spa</a>
+                                    </li>
+                                    <li> 
+                                        <a href="service.html">Service</a>
+                                    </li> 
+                                    <li> 
+                                        <a href="guide.html">Guide</a>
+                                    </li>
+                                    <li> 
+                                        <a href="price.html">Price</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+
+        <!-- Page title -->
+        <section id="page-title" class="page-title-center service-title">
+            <div class="container">
+                <div class="breadcrumb">
+                    <ul>
+                        <li><a href="index.html">Main</a> </li>
+                        <li><a href="service.html">Service</a> </li>
+                    </ul>
+                </div>
+                <div class="page-title" data-animation="fadeInUp" data-animation-delay="800">
+                    <h1>Service</h1>
+                    <span>오랜 경험을 가진 전문가들의 다양하고 차별화된 서비스를 만나보세요.</span>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
+
+        <section id="service">
+            <div class="container">
+                <div class="heading heading-center">
+                    <h2>FOR MOTHER</h2>
+                    <span class="hr"></span>
+                </div>
+                <div class="row for-mother">
+                    <!-- <div class="col-md-4">
+                        <img src="images/service3.png" alt="산모서비스">
+                        <h3>제철재료식단</h3>
+                        <p>산후회복을 위해 산모님들이 드시는 음식은 제철재료를 사용합니다.</p>
+                    </div> -->
+                    <!-- <div class="col-md-4">
+                        <img src="images/service1.png" alt="산모서비스">
+                        <h3>산부인과 전문의 회진</h3>
+                        <p>청담마리 산부인과와 연계하여 전문의사가 주 1회 회진을 돌며 산모님들의 산후 회복 상태를 체크합니다.</p>
+                    </div> -->
+                    <div class="col-md-4">
+                        <img src="images/service4.png" alt="산모서비스">
+                        <h3>한의원 회진</h3>
+                        <p>양방과 한방을 결합하여 산모의 몸 회복을 돕습니다. 한약옵션을 제공합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/service2.png" alt="산모서비스">
+                        <h3>골반 교정테라피</h3>
+                        <p>출산으로 인해 틀어진 골반을 교정전문 선생님께서 직접 관리합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/service7.png" alt="산모서비스">
+                        <h3>산후요가 테라피</h3>
+                        <p>산모의 몸과 마음을 건강하게 만들어주는 산후요가를 주2회 실시합니다.</p>
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <img src="images/service6.png" alt="산모서비스">
+                        <h3>당뇨, 알러지질환 대체식단</h3>
+                        <p>당뇨, 갑상선질환, 알러지 등에 대한 대체식단을 제공합니다.</p>
+                    </div> -->
+                    <div class="col-md-4">
+                        <img src="images/service5.png" alt="산모서비스">
+                        <h3>산후회복 푸드테라피</h3>
+                        <p>산전, 산후에 발생한 질환을 위해 회복식을 제공합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/service9.png" alt="산모서비스">
+                        <h3>바디테라피 라스파</h3>
+                        <p>호텔 고급스파를 그대로! 산후 회복을 돕는 동시에 아름다운 바디라인을 만들어 드립니다. CIVASAN, 쟌피오베르 임산부 전용 제품사용.</p>
+                    </div>
+                    
+                </div>
+                <hr class="space">
+                <div class="heading heading-center">
+                    <h2>FOR NEWBORN</h2>
+                    <span class="hr"></span>
+                </div>
+                <div class="row for-mother">
+                    <div class="col-md-4">
+                        <img src="images/newborn2.png" alt="신생아 서비스">
+                        <h3>체계적인 신생아관리</h3>
+                        <p>신생아실안에 숨은 공간이 전혀 없으며 한눈에 신생아실 구석구석이 다 보입니다. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn4.png" alt="신생아 서비스">
+                        <h3>소규모 신생아실 운영</h3>
+                        <p>모든 것을 다 보여드릴 수 있는 것은 철저한 신생아 관리에 대한 강한 자신감입니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn1.png" alt="신생아 서비스">
+                        <h3>소아과 전문의 회진</h3>
+                        <p>무지개 소아과 전문의사가 주 2회 회진을 돌며 아기들의 건강상태를 체크합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn5.png" alt="신생아 서비스">
+                        <h3>신생아 모니터링 캠설치</h3>
+                        <p>베베캠을 설치하여 신생아를 모니터링 운영하고 있습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn3.png" alt="신생아 서비스">
+                        <h3>신생아실 전용 환기시스템</h3>
+                        <p>신생아실 전용 환기시스템을 두어 아기들이 마시는 공기도 더욱 신경썼습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn7.png" alt="신생아 서비스">
+                        <h3>젖병실명제</h3>
+                        <p>위생적인 신생아실 관리를 위해 젖병실명제를 도입하고 친환경 용품만을 사용합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn10.png" alt="신생아 서비스">
+                        <h3>무혈황달 측정기</h3>
+                        <p>경피적 황달측정기를 통해 신생아의 건강상태를 주기적으로 체크하고 있습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn8.png" alt="신생아 서비스">
+                        <h3>친환경 용품</h3>
+                        <p>ACO인증된 유기농, 천연원료로 만든 제품을 사용합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn13.png" alt="신생아 서비스">
+                        <h3>조리원EMR</h3>
+                        <p>아기의 건강을 태블릿으로 쉽고 편하게 관리하실 수 있습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn11.png" alt="신생아 서비스">
+                        <h3>기저귀 패킹시스템</h3>
+                        <p>CARE PORT는 사용후의 기저귀를 간단, 청결, 빠르게 packing하여 불쾌한 냄새나 위생적인 문제를 크게 개선시켜주는 시스템입니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn12.png" alt="신생아 서비스">
+                        <h3>스마트 환경관리시스템</h3>
+                        <p>스마트뮤는 아기의 건강을 위해 신생아의 공기질, 모유냉장고의 온도를 스마트하게 관리할 수 있습니다.</p>
+                    </div>
+                </div>
+                <hr class="space">
+                <div class="heading heading-center">
+                    <h2>FOR OTHER</h2>
+                    <span class="hr"></span>
+                </div>
+                <div class="row for-mother">
+                    <div class="col-md-4">
+                        <img src="images/service8.png" alt="산모서비스">
+                        <h3>퇴실 후 산후도우미 연계</h3>
+                        <p>강남구 이용자수 1위, 마더앤베이비 산후도우미와의 연계를 통해 퇴실 후 체계젹인 지원을 합니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn9.png" alt="신생아 서비스">
+                        <h3>고급 앨범 서비스</h3>
+                        <p>폴스베이비의 고급 앨범 서비스를 받을 수 있습니다.(만삭, 신생아, 신생아 50일)</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/newborn6.png" alt="신생아 서비스">
+                        <h3>전직원 응급상황 관리교육</h3>
+                        <p>위급상황 발생 시 대처할 수 있도록 전직원이 교육을 받고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+ <!-- Footer -->
+        <footer id="footer" class="footer-dark">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="text-left">
+                        <img src="images/logo-footer.png" alt="로고 푸터">
+                        <address>서울 강남구 삼성로 548 시모소타워 2, 3, 4층</address>
+                        <span class="tel">Tel. 02-508-0013</span>
+                        <span class="tel">Fax. 0504-138-0013</span><br/>
+                        <span class="license">사업자번호 233-85-02207</span>
+                        <span class="captain">대표원장 최남선</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-left">&copy; COPYRIGHT 2018 TRINITY ALL RIGHT RESERVED
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end: Footer -->
+
+    </div>
+    <!-- end: Wrapper -->
+
+    <!-- Go to top button -->
+    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyARV0vTU5xSiMB3P6-ae3pCP1CjOdcNG9c"></script>
+    <script>
+        // map
+        initialize();
+        function initialize() {
+          var myLatLng = new google.maps.LatLng(37.521159,127.0574163);  
+          var mapProp = {
+            center:myLatLng,
+            zoom:17,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+          var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: '트리니티 산후조리원'
+          });
+        }
+    </script> -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70342832-19"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-70342832-19');
+    </script>
+
+</body>
+
+</html>
