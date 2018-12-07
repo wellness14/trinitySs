@@ -1,0 +1,1 @@
+[1207/174001.771:ERROR:process_reader_win.cc(242)] ReadMemory at 0x1fc6daadef0 of 512 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
